@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	"github.com/pkg/sftp"
-	"golang.org/x/crypto/ssh"
+	"github.com/golang/crypto/ssh"
 )
 
 func Example() {

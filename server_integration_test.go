@@ -29,7 +29,7 @@ import (
 	"time"
 
 	"github.com/kr/fs"
-	"golang.org/x/crypto/ssh"
+	"github.com/golang/crypto/ssh"
 )
 
 func TestMain(m *testing.M) {

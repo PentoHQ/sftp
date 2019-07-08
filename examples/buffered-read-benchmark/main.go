@@ -11,8 +11,8 @@ import (
 	"os"
 	"time"
 
-	"golang.org/x/crypto/ssh"
-	"golang.org/x/crypto/ssh/agent"
+	"github.com/golang/crypto/ssh"
+	"github.com/golang/crypto/ssh/agent"
 
 	"github.com/pkg/sftp"
 )

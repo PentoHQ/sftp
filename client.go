@@ -12,7 +12,7 @@ import (
 
 	"github.com/kr/fs"
 	"github.com/pkg/errors"
-	"golang.org/x/crypto/ssh"
+	"github.com/golang/crypto/ssh"
 )
 
 // InternalInconsistency indicates the packets sent and the data queued to be

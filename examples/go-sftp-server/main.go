@@ -13,10 +13,10 @@ import (
 	"os"
 
 	"github.com/pkg/sftp"
-	"golang.org/x/crypto/ssh"
+	"github.com/golang/crypto/ssh"
 )
 
-// Based on example server code from golang.org/x/crypto/ssh and server_standalone
+// Based on example server code from github.com/golang/crypto/ssh and server_standalone
 func main() {
 
 	var (
